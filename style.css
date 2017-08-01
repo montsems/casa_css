@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: auto;
+	background: linear-gradient(to top, forestgreen, deepskyblue) ;
+	position: relative;
+	width: 900px;
+	height: 900px;
+	
+}
+
+.tejado{
+	background-image: url(imagenes/pizarra1.png);
+	background-size: cover;
+	transform: rotate(-45deg);
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	left: 125px;
+	top: 120px;
+}
+
+
+.fachada{
+	background-color:pink;
+	background-image: 
+	radial-gradient(circle at 100% 150%, pink 24%, white 25%, white 28%, pink 29%, pink 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, pink 24%, white 25%, white 28%, pink 29%, pink 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, white 10%, pink 11%, pink 23%, white 24%, white 30%, pink 31%, pink 43%, white 44%, white 50%, pink 51%, pink 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, pink 6%, pink 15%, white 16%, white 20%, pink 21%, pink 30%, white 31%, white 35%, pink 36%, pink 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, white 5%, pink 6%, pink 15%, white 16%, white 20%, pink 21%, pink 30%, white 31%, white 35%, pink 36%, pink 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size:100px 50px;
+	width: 650px;
+	height: 560px;
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+	
+	
+}
+
+.puerta img{
+	background-image: url(imagenes/interior.jpg);
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	left:150px;
+}
+
+.ventana{
+	width: 150px;
+	height: 200px;
+	display: inline-block;
+	background-color: cornflowerblue;
+	border: ridge 3px #ccc;
+	overflow: hidden;
+	
+}
+
+#ventana1{
+	position: absolute;
+	top: 50px;
+	left: 80px;
+}
+
+
+#ventana1 img{
+	position: absolute;
+	bottom: 0;
+}
+
+#ventana2{
+	position: absolute;
+	top: 50px;
+	right: 80px;
+}
+
+#ventana2 img{
+	position: absolute;
+	bottom: -80px;
+	left: -50px;
+	
+}
+
+
+.luna{
+	background-color: antiquewhite;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	right: 200px;
+	top: 50px;
+}
+
+.luna#menguante{
+	background-color: deepskyblue;
+	position: absolute;
+	right: 175px;
+	top: 50px;
+}
