@@ -84,6 +84,18 @@
 	left: -50px;
 	
 }
+.mirador{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: groove 3px #ccc;
+	background-color: aqua;
+	background-image: url(imagenes/PNGPIX-COM-Water-Drop-PNG-Transparent-Image-1.png);
+	background-size: cover;
+	position: absolute;
+	bottom: 50px;
+	right: 80px;
+}
 
 
 .luna{
@@ -93,12 +105,18 @@
 	border-radius: 50%;
 	position: absolute;
 	right: 200px;
-	top: 50px;
+	top: 30px;
 }
 
 .luna#menguante{
 	background-color: deepskyblue;
 	position: absolute;
 	right: 175px;
-	top: 50px;
+	top: 0;
+}
+
+figure{
+	position: absolute;
+	bottom: 0;
+	right: 25px;
 }
